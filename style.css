@@ -12,12 +12,14 @@ h1{
   margin:0;
   padding:25px;
 }
+
 #insert{
   padding-top:40px;
 }
 #grid{
   display:grid;
   grid-template-columns: 200px 1fr;
+  border-bottom: 1px solid gray;
 }
 #grid ol{
   padding-left: 33px;
@@ -25,6 +27,9 @@ h1{
   margin:0;
   padding:20px;
   padding-left:40px;
+}
+#grid li{
+  padding: 10px;
 }
 #grid #article{
   padding-left: 25px;
